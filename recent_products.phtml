@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * @var \Magento\Framework\View\Element\Template $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+<div class="block">
+    <div class="title thiny"><?= /* @noEscape */ __('Recently added') ?></div>
+</div>
+<div class="product--slider sliderId-recent products wrapper grid products-grid">
+    <script type="module"
+            defer
+            src="<?= /* @noEscape */ $block->getViewFileUrl('js/container.js'); ?>">
+    </script>
+    <products-container products='{}' pageSize="12"></products-container>
+</div>
+<script defer>
+    window.i18n = {
+        ...window.i18n,
+        'see product': '<?= __('See product'); ?>'
+    }
+</script>
