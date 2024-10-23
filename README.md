@@ -22,3 +22,5 @@ for instance:
 [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 [CSS: scroll-snap-type](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
 [GraphQL](https://graphql.org/)
+
+![image](https://github.com/user-attachments/assets/d05b1a04-179b-4ba7-8c90-e2f4b3353a08)
